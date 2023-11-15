@@ -87,7 +87,7 @@
             // 
             lblRed.BackColor = Color.Red;
             lblRed.ForeColor = Color.White;
-            lblRed.Location = new Point(536, 10);
+            lblRed.Location = new Point(629, 6);
             lblRed.Name = "lblRed";
             lblRed.Size = new Size(49, 51);
             lblRed.TabIndex = 4;
@@ -97,7 +97,7 @@
             // 
             lblGreen.BackColor = Color.Green;
             lblGreen.ForeColor = Color.White;
-            lblGreen.Location = new Point(591, 9);
+            lblGreen.Location = new Point(684, 6);
             lblGreen.Name = "lblGreen";
             lblGreen.Size = new Size(49, 51);
             lblGreen.TabIndex = 4;
@@ -107,7 +107,7 @@
             // 
             lblBlue.BackColor = Color.Blue;
             lblBlue.ForeColor = Color.White;
-            lblBlue.Location = new Point(646, 10);
+            lblBlue.Location = new Point(739, 6);
             lblBlue.Name = "lblBlue";
             lblBlue.Size = new Size(49, 51);
             lblBlue.TabIndex = 4;
@@ -115,7 +115,7 @@
             // 
             // btnlOssze
             // 
-            btnlOssze.Location = new Point(227, 205);
+            btnlOssze.Location = new Point(247, 205);
             btnlOssze.Name = "btnlOssze";
             btnlOssze.Size = new Size(30, 30);
             btnlOssze.TabIndex = 5;
@@ -124,7 +124,7 @@
             // 
             // btnKivon
             // 
-            btnKivon.Location = new Point(263, 205);
+            btnKivon.Location = new Point(283, 205);
             btnKivon.Name = "btnKivon";
             btnKivon.Size = new Size(30, 30);
             btnKivon.TabIndex = 5;
@@ -133,7 +133,7 @@
             // 
             // btnOszt
             // 
-            btnOszt.Location = new Point(263, 241);
+            btnOszt.Location = new Point(283, 241);
             btnOszt.Name = "btnOszt";
             btnOszt.Size = new Size(30, 30);
             btnOszt.TabIndex = 5;
@@ -142,7 +142,7 @@
             // 
             // btnSzorz
             // 
-            btnSzorz.Location = new Point(227, 241);
+            btnSzorz.Location = new Point(247, 241);
             btnSzorz.Name = "btnSzorz";
             btnSzorz.Size = new Size(30, 30);
             btnSzorz.TabIndex = 5;
@@ -152,7 +152,7 @@
             // txtSzamolo1
             // 
             txtSzamolo1.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            txtSzamolo1.Location = new Point(119, 217);
+            txtSzamolo1.Location = new Point(139, 217);
             txtSzamolo1.Name = "txtSzamolo1";
             txtSzamolo1.Size = new Size(74, 43);
             txtSzamolo1.TabIndex = 6;
@@ -160,7 +160,7 @@
             // txtSzamolo2
             // 
             txtSzamolo2.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            txtSzamolo2.Location = new Point(335, 217);
+            txtSzamolo2.Location = new Point(355, 217);
             txtSzamolo2.Name = "txtSzamolo2";
             txtSzamolo2.Size = new Size(74, 43);
             txtSzamolo2.TabIndex = 6;
@@ -169,7 +169,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(456, 220);
+            label1.Location = new Point(476, 220);
             label1.Name = "label1";
             label1.Size = new Size(35, 37);
             label1.TabIndex = 7;
@@ -180,7 +180,7 @@
             lblEredmeny.BackColor = Color.White;
             lblEredmeny.BorderStyle = BorderStyle.FixedSingle;
             lblEredmeny.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lblEredmeny.Location = new Point(536, 223);
+            lblEredmeny.Location = new Point(556, 223);
             lblEredmeny.Name = "lblEredmeny";
             lblEredmeny.Size = new Size(106, 34);
             lblEredmeny.TabIndex = 8;
@@ -189,7 +189,7 @@
             // 
             // btnCalc
             // 
-            btnCalc.Location = new Point(118, 302);
+            btnCalc.Location = new Point(138, 302);
             btnCalc.Name = "btnCalc";
             btnCalc.Size = new Size(522, 34);
             btnCalc.TabIndex = 9;
@@ -198,7 +198,7 @@
             // 
             // btnClose
             // 
-            btnClose.Location = new Point(567, 374);
+            btnClose.Location = new Point(713, 404);
             btnClose.Name = "btnClose";
             btnClose.Size = new Size(75, 34);
             btnClose.TabIndex = 10;
@@ -207,7 +207,7 @@
             // 
             // btnReset
             // 
-            btnReset.Location = new Point(456, 374);
+            btnReset.Location = new Point(614, 404);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(93, 34);
             btnReset.TabIndex = 10;
@@ -237,7 +237,9 @@
             Controls.Add(btnWelcome);
             Controls.Add(txtName);
             Controls.Add(lblWelcome);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "FrmMain";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "WFA Dolgozat";
             ResumeLayout(false);
             PerformLayout();
